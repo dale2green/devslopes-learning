@@ -20,18 +20,20 @@ let readyToSkate = false;
 let crewStatus = true;
 let cameraBattery = "green";
 
-if (crewStatus &&& cameraBattery === "green") {
-   console.log("Crew & cameraBattery is a go!");
-   readyToSkate = true;
+
+if (crewStatus && cameraBattery === "green") {
+  console.log("Crew & cameraBattery is a go!");
+  readyToSkate = true;
 } else {
-   console.log("WARNING: Crew or cameraBattery not ready!");
-   readyToSkate = false;
+  console.log("WARNING: Crew or cameraBattery not ready!");
+  readyToSkate = false;
 }
 
 if (readyToSkate) {
-   console.log("Grab your skateboard...");
-   console.log(("Ready...");
-   console.log("Set...");
-   console.log("SKATE!");
+  console.log("Grab your skateboard...");
+  console.log("Ready...");
+  console.log("Set...");
+  console.log("SKATE!");
 } else {
-   console.log("No skating today.");
+  console.log("No skating today.");
+}
