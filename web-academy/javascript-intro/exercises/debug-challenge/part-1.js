@@ -11,10 +11,10 @@ Expected Output:
 let readyToSkate = false;
 let energyLevel = 18000;
 
-if (energyLevel >= 24000 {
-   console.log("Energy level is a go!");
-   readyToSkate = true;
+if (energyLevel >= 24000) {
+  console.log("Energy level is a go!");
+  readyToSkate = true;
 } else {
-   console.log("WARNING: Insufficient energy!");
-   readyToSkate = false;
+  console.log("WARNING: Insufficient energy!");
+  readyToSkate = false;
 }
