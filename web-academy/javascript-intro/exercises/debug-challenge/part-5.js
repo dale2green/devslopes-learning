@@ -26,24 +26,24 @@ let crewStatus = true;
 let cameraBattery = "green";
 
 if (energyLevel >= 24000) {
-   console.log("Energy level is a go!");
-   readyToSkate = true;
+  console.log("Energy level is a go!");
+  readyToSkate = true;
 } else {
-   console.log("WARNING: Insufficient energy!");
-   readyToSkate = false;
+  console.log("WARNING: Insufficient energy!");
+  readyToSkate = false;
 }
 
-if (crewStatus && cameraBattery === "green"){
-   console.log("Crew & cameraBattery is a go!");
-   readyToSkate = true;
+if (crewStatus && cameraBattery === "green") {
+  console.log("Crew & cameraBattery is a go!");
+  readyToSkate = true;
 } else {
-   console.log("WARNING: Crew or cameraBattery not ready!");
-   readyToSkate = false;
+  console.log("WARNING: Crew or cameraBattery not ready!");
+  readyToSkate = false;
 }
 
-if (readyToSkate) {
-   console.log("Let's goooooo!");
-   console.log("Time to skate!");
+if (readyToSkate == false) {
+  console.log("Let's goooooo!");
+  console.log("Time to skate!");
 } else {
-   console.log("No skating today.");
+  console.log("No skating today.");
 }
